@@ -1,0 +1,130 @@
+html, body {
+    height: 100%;
+    width: auto;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.title {
+    font-size: 5vmin;
+    text-align: center;
+
+    margin-bottom: 1vmin;
+}
+
+.middleMain {
+    background-color: #181818;
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 13px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    
+    font-weight: 500;
+
+    width: 65vmin;
+    height: 40vmin;
+    margin-bottom: 2vmin;
+
+    display: flex;
+    grid-template-rows: auto 1fr auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.middleMain input[type="checkbox"] {
+    width: 6vmin;
+    height: 6vmin;
+}
+
+#characteresTitle {
+    font-size: 2vmin;
+}
+
+.leftSide > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1vmin;
+    margin-left: 2vmin;
+}
+
+.leftSide > div p {
+    margin-left: 1vmin;
+    font-size: 2vmin;
+}
+
+#generateButton {
+    cursor: pointer;
+    border: none;
+}
+
+.rightSide {
+    display: flex;
+    grid-row: 3;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 6vmin;
+}
+
+.rightSide input[type="number"] {
+    width: 26vmin;
+    height: 6vmin;
+    margin-bottom: 9vmin;
+
+    font-size: 2vmin;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.rightSide input[type="button"] {
+    width: 26vmin;
+    height: 6vmin;
+    background-color: green;
+
+    font-size: 2vmin;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.copyArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #181818;
+    border: 2px white solid;
+    border-radius: 13px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+
+    width: 65vmin;
+    height: 9vmin;
+    position: relative;
+}
+
+#passwordCamp {
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vmin;
+    margin: 0 auto;
+    width: 50vmin;
+}
+
+#copyBtn {
+    position: absolute;
+    right: 1vmin;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#copyBtn img {
+    width: 3vmin;
+}

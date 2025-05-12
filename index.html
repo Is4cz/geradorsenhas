@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="main.js"></script>
+</head>
+<body style="background-color: #181818;">
+    <h1 class="title">GERADOR DE SENHAS</h1>
+    <div class="middleMain">
+        <div class="leftSide">
+            <div>
+                <input id="lowercaseLetter" type="checkbox">
+                <p>Letras minúscula</p>
+            </div>
+            <div>
+                <input id="capitalLetters" type="checkbox">
+                <p>Letras maiúsculas</p>
+            </div>
+            <div>
+                <input id="numbers" type="checkbox">
+                <p>Números</p>
+            </div>
+            <div>
+                <input id="symbols" type="checkbox">
+                <p>Símbolos</p>
+            </div>
+        </div>
+        <div class="rightSide">
+            <p id="characteresTitle">Quantidade de characteres</p>
+            <div>
+                <input id="numberCharactersField" type="number">
+            </div>
+            <input id="generateButton" type="button" value="Gerar">
+        </div>
+    </div>
+    <div class="copyArea">
+        <input type="text" id="passwordCamp" disabled>
+        <button id="copyBtn">
+            <img src="copy.png" alt="copy">
+        </button>
+    </div>
+</body>
+</html>
